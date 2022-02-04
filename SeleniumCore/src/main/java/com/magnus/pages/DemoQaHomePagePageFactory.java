@@ -15,6 +15,7 @@ public class DemoQaHomePagePageFactory extends BaseClass {
 	WebElement imgLogo;
 	
 	public DemoQaHomePagePageFactory(){
+		setup();
 		PageFactory.initElements(driver, this);
 	}
 
