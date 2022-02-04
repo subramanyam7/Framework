@@ -25,7 +25,6 @@ public class DemoQaHomePagePageFactory extends BaseClass {
 	}
 
 	public void verifyHomePageDisplayed() {
-		imgLogo = driver.findElement(By.xpath("//img[@src='/images/Toolsqa.jpg']"));
 		Assert.assertTrue(imgLogo.isDisplayed());
 	}
 }
